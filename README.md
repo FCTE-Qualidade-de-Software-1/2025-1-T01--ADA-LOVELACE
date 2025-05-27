@@ -24,7 +24,7 @@ Este repositório tem como objetivo analisar a qualidade do projeto AgroMart, co
 
 ## 📚 Documentação
 
-Para consultar os detalhes da avaliação de qualidade do projeto AgroMart, acesse a documentação completa no link a seguir: [Acesse a documentação]().
+Para consultar os detalhes da avaliação de qualidade do projeto AgroMart, acesse a documentação completa no link a seguir: [Acesse a documentação](https://fcte-qualidade-de-software-1.github.io/2025-1-T01--ADA-LOVELACE/).
 
 ### Como rodar a documentação?
 
