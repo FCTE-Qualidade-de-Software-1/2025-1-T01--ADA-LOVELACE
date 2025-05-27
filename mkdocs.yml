@@ -1,0 +1,35 @@
+site_name: AgroMart - Grupo Ada Lovelace
+site_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-1-T01--ADA-LOVELACE
+repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-1-T01--ADA-LOVELACE
+repo_name: 2025-1-T01--ADA-LOVELACE
+
+nav:
+  - Início: index.md
+
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/logo.png
+
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.annotate
+    - toc.integrate
+
+  palette:
+    # 🌞 Tema Claro
+    - scheme: default
+      primary: blue grey
+      accent: green
+      toggle:
+        icon: material/weather-night
+        name: Alternar para o modo escuro
+
+    # 🌙 Tema Escuro
+    - scheme: slate
+      primary: blue grey
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Alternar para o modo claro

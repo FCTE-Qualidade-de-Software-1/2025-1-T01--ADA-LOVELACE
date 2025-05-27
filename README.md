@@ -26,6 +26,25 @@ Este repositório tem como objetivo analisar a qualidade do projeto AgroMart, co
 
 Para consultar os detalhes da avaliação de qualidade do projeto AgroMart, acesse a documentação completa no link a seguir: [Acesse a documentação]().
 
+### Como rodar a documentação?
+
+1. Crie um ambiente virtual:
+```sh
+python3 -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+```
+
+2. Instale as dependências:
+```sh
+pip install -r requirements.txt
+```
+
+3. Rode a documentação localmente:
+```sh
+mkdocs serve
+```
+
 ## 👥 Equipe
 
 <table>
