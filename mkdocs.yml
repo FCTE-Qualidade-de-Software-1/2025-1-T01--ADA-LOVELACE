@@ -5,6 +5,7 @@ repo_name: 2025-1-T01--ADA-LOVELACE
 
 nav:
   - Início: index.md
+  - GQM: gqm/gqm-fase-definicao.md
 
 theme:
   name: material
