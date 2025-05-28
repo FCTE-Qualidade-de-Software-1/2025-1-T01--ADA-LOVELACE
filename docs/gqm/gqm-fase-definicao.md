@@ -29,6 +29,26 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 
 ### Abstraction Sheet
 
+
+<table style="width:100%; border-collapse: collapse;">
+    <thead style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
+        <tr>
+            <th>Objeto</th>
+            <th>Propósito</th>
+            <th>Foco da Qualidade</th>
+            <th>Ponto de Vista</th>
+        </tr>
+    </thead>
+    <tbody style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
+        <tr>
+            <td>Produto Entregue</td>
+            <td>Compreensão</td>
+            <td>Usabilidade</td>
+            <td>Usuário Final</td>
+        </tr>
+    </tbody>
+</table>
+
 <table style="width:100%; border-collapse: collapse;">
   <tr>
     <td style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
@@ -68,7 +88,9 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 
 ---
 
-![Diagrama de Objetivo 1 - Usabilidade](../images/diagrama-de-objetivo1-usabilidade.png)
+![Diagrama de Objetivo 1: Usabilidade](../images/diagrama-de-objetivo1-usabilidade.png)
+
+<p><strong>Figura 1 - Diagrama de Objetivo de Medição 1: Usabilidade</strong></p>
 
 ---
 
@@ -84,19 +106,38 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 
 ### Questões e Hipóteses
 
-- **Q4:** O sistema responde às ações do usuário em tempo aceitável?  
-  **Hipótese Q4:** O tempo médio de resposta das ações críticas é inferior a 1 segundo em 90% dos testes.
+- **Q1:** O sistema responde às ações do usuário em tempo aceitável?  
+  **Hipótese Q1:** O tempo médio de resposta das ações críticas é inferior a 1 segundo em 90% dos testes.
 
-- **Q5:** O consumo de memória e CPU permanece dentro de limites aceitáveis durante o uso?  
-  **Hipótese Q5:** O uso de memória e CPU não ultrapassa 70% dos recursos disponíveis em dispositivos de teste.
+- **Q2:** O consumo de memória e CPU permanece dentro de limites aceitáveis durante o uso?  
+  **Hipótese Q2:** O uso de memória e CPU não ultrapassa 70% dos recursos disponíveis em dispositivos de teste.
 
-- **Q6:** O desempenho se mantém estável em diferentes velocidades de conexão?  
-  **Hipótese Q6:** A aplicação mantém funcionalidade básica e responde em até 3 segundos mesmo em conexões de 1 Mbps.
+- **Q3:** O desempenho se mantém estável em diferentes velocidades de conexão?  
+  **Hipótese Q3:** A aplicação mantém funcionalidade básica e responde em até 3 segundos mesmo em conexões de 1 Mbps.
 
-- **Q7:** O tempo de carregamento inicial do sistema é adequado?  
-  **Hipótese Q7:** O sistema carrega completamente em até 2 segundos em redes Wi-Fi e até 5 segundos em redes móveis.
+- **Q4:** O tempo de carregamento inicial do sistema é adequado?  
+  **Hipótese Q4:** O sistema carrega completamente em até 2 segundos em redes Wi-Fi e até 5 segundos em redes móveis.
 
 ### Abstraction Sheet
+
+<table style="width:100%; border-collapse: collapse;">
+    <thead style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
+        <tr>
+            <th>Objeto</th>
+            <th>Propósito</th>
+            <th>Foco da Qualidade</th>
+            <th>Ponto de Vista</th>
+        </tr>
+    </thead>
+    <tbody style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
+        <tr>
+            <td>Produto Entregue</td>
+            <td>Avaliação</td>
+            <td>Eficiência</td>
+            <td>Equipe de Desenvolvimento</td>
+        </tr>
+    </tbody>
+</table>
 
 <table style="width:100%; border-collapse: collapse;">
   <tr>
@@ -138,6 +179,7 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 ---
 
 ![Diagrama de Objetivo 2 - Eficiência](../images/diagrama-de-objetivo2-eficiencia.png)
+<p><strong>Figura 2 - Diagrama de Objetivo de Medição 2: Eficiência</strong></p>
 
 ---
 
@@ -157,3 +199,4 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 | Versão | Data       | Autor                                      | Descrição            | Revisor |
 | ------ | ---------- | ------------------------------------------ | -------------------- | ------- |
 | `1.0`    | 27/05/2025 | [Diego Carlito](https://github.com/DiegoCarlito) | Criação do documento |  |
+| `1.1`    | 28/05/2025 | [Diego Carlito](https://github.com/DiegoCarlito) | Melhora o Abstraction Sheet |  |
