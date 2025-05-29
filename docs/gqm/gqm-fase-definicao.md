@@ -106,17 +106,17 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 
 ### Questões e Hipóteses
 
-- **Q1:** O sistema responde às ações do usuário em tempo aceitável?  
-  **Hipótese Q1:** O tempo médio de resposta das ações críticas é inferior a 1 segundo em 90% dos testes.
+- **Q4:** O sistema responde às ações do usuário em tempo aceitável?  
+  **Hipótese Q4:** O tempo médio de resposta das ações críticas é inferior a 1 segundo em 90% dos testes.
 
-- **Q2:** O consumo de memória e CPU permanece dentro de limites aceitáveis durante o uso?  
-  **Hipótese Q2:** O uso de memória e CPU não ultrapassa 70% dos recursos disponíveis em dispositivos de teste.
+- **Q5:** O consumo de memória e CPU permanece dentro de limites aceitáveis durante o uso?  
+  **Hipótese Q5:** O uso de memória e CPU não ultrapassa 70% dos recursos disponíveis em dispositivos de teste.
 
-- **Q3:** O desempenho se mantém estável em diferentes velocidades de conexão?  
-  **Hipótese Q3:** A aplicação mantém funcionalidade básica e responde em até 3 segundos mesmo em conexões de 1 Mbps.
+- **Q6:** O desempenho se mantém estável em diferentes velocidades de conexão?  
+  **Hipótese Q6:** A aplicação mantém funcionalidade básica e responde em até 3 segundos mesmo em conexões de 1 Mbps.
 
-- **Q4:** O tempo de carregamento inicial do sistema é adequado?  
-  **Hipótese Q4:** O sistema carrega completamente em até 2 segundos em redes Wi-Fi e até 5 segundos em redes móveis.
+- **Q7:** O tempo de carregamento inicial do sistema é adequado?  
+  **Hipótese Q7:** O sistema carrega completamente em até 2 segundos em redes Wi-Fi e até 5 segundos em redes móveis.
 
 ### Abstraction Sheet
 
