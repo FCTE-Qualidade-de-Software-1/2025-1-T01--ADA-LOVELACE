@@ -198,5 +198,5 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 
 | Versão | Data       | Autor                                      | Descrição            | Revisor |
 | ------ | ---------- | ------------------------------------------ | -------------------- | ------- |
-| `1.0`    | 27/05/2025 | [Diego Carlito](https://github.com/DiegoCarlito) | Criação do documento |  |
-| `1.1`    | 28/05/2025 | [Diego Carlito](https://github.com/DiegoCarlito) | Melhora o Abstraction Sheet |  |
+| `1.0`    | 27/05/2025 | [Diego Carlito](https://github.com/DiegoCarlito) | Criação do documento | [Gabriel Moura](https://github.com/thegm445) |
+| `1.1`    | 28/05/2025 | [Diego Carlito](https://github.com/DiegoCarlito) | Melhora o Abstraction Sheet | [Gabriel Moura](https://github.com/thegm445) |
