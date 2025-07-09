@@ -87,9 +87,7 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 </table>
 
 
----
-
-### Fase 2: Especificação da Avaliação (Usabilidade)
+### Especificação da Avaliação
 #### Métricas e Critérios
 
 | Questão | Métrica (Q-RAPID)                     | Unidade        | Nível Aceitável | Critério de Julgamento                     |
@@ -189,9 +187,7 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 </table>
 
 
----
-
-### Fase 2: Especificação da Avaliação (Eficiência)
+### Especificação da Avaliação
 #### Métricas e Critérios
 
 | Questão | Métrica (Q-RAPID)              | Unidade        | Nível Aceitável     | Critério de Julgamento               |
