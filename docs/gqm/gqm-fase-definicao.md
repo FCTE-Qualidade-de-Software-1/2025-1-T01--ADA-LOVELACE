@@ -31,30 +31,11 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 
 
 <table style="width:100%; border-collapse: collapse;">
-    <thead style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
-        <tr>
-            <th>Objeto</th>
-            <th>Propósito</th>
-            <th>Foco da Qualidade</th>
-            <th>Ponto de Vista</th>
-        </tr>
-    </thead>
-    <tbody style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
-        <tr>
-            <td>Produto Entregue</td>
-            <td>Compreensão</td>
-            <td>Usabilidade</td>
-            <td>Usuário Final</td>
-        </tr>
-    </tbody>
-</table>
-
-<table style="width:100%; border-collapse: collapse;">
   <tr>
     <td style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
       <strong>Foco da Qualidade</strong>
       <ul style="margin-top: 5px;">
-        <li>Facilidade de uso</li>
+        <li>Navegação simples</li>
         <li>Satisfação visual</li>
         <li>Tempo para realizar tarefas</li>
       </ul>
@@ -74,6 +55,7 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
       <ul style="margin-top: 5px;">
         <li>80% dos usuários completam tarefas</li>
         <li>NPS acima de 7</li>
+        <li>Tarefas concluídas em ≤ 120s</li>
       </ul>
     </td>
     <td style="padding: 10px; vertical-align: top; border: 1px solid #ccc;">
@@ -81,11 +63,11 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
       <ul style="margin-top: 5px;">
         <li><em>Usuários mais experientes:</em> concluem tarefas 30% mais rápido</li>
         <li><em>UI com contraste e responsividade:</em> melhora a satisfação</li>
+        <li><em>Tarefas complexas:</em> aumentam tempo em 40%</li>
       </ul>
     </td>
   </tr>
 </table>
-
 
 ### Especificação da Avaliação
 #### Métricas e Critérios
@@ -93,7 +75,7 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 | Questão | Métrica (Q-RAPID)                     | Unidade        | Nível Aceitável | Critério de Julgamento                     |
 |---------|----------------------------------------|----------------|-----------------|--------------------------------------------|
 | Q1      | Taxa de conclusão de tarefas           | %              | ≥ 80%           | < 70% = Crítico; 70-79% = Alerta           |
-| Q2      | Pontuação SUS (Usabilidade)            | Escala 0-100   | ≥ 75            | < 68 = Insatisfatório                      |
+| Q2      | Pontuação NPS (Usabilidade)            | Escala 0-10   | ≥ 7            | < 7 = Insatisfatório                      |
 | Q3      | Tempo médio por tarefa                 | Segundos       | ≤ 120s          | > 150s = Necessita otimização              |
 
 #### Gráfico Hierárquico
@@ -110,7 +92,7 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 | ------------------------ | ------------------------------------------------------------------------------------ |
 | **Analisar**             | Agromart                                                                             |
 | **Para o propósito de**  | avaliar seu desempenho sob diferentes condições de uso                             |
-| **Com respeito a**       | eficiência em termos de tempo de resposta, uso de recursos e escalabilidade       |
+| **Com respeito a**       | eficiência                                                                           |
 | **Do ponto de vista da** | equipe técnica                                                                      |
 | **No contexto de**       | uso real em dispositivos móveis, desktops e diferentes conexões de internet       |
 
@@ -130,24 +112,6 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 
 ### Abstraction Sheet
 
-<table style="width:100%; border-collapse: collapse;">
-    <thead style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
-        <tr>
-            <th>Objeto</th>
-            <th>Propósito</th>
-            <th>Foco da Qualidade</th>
-            <th>Ponto de Vista</th>
-        </tr>
-    </thead>
-    <tbody style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
-        <tr>
-            <td>Produto Entregue</td>
-            <td>Avaliação</td>
-            <td>Eficiência</td>
-            <td>Equipe de Desenvolvimento</td>
-        </tr>
-    </tbody>
-</table>
 
 <table style="width:100%; border-collapse: collapse;">
   <tr>
@@ -156,7 +120,8 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
       <ul style="margin-top: 5px;">
         <li>Comportamento em relação ao tempo</li>
         <li>Utilização de recursos</li>
-        <li>Capacidade</li>
+        <li>Estabilidade em rede</li>
+        <li>Carregamento inicial</li>
       </ul>
     </td>
     <td style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
@@ -164,7 +129,8 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
       <ul style="margin-top: 5px;">
         <li>Grau em que os tempos de resposta e processamento atendem aos requisitos</li>
         <li>Grau em que as quantidades e tipos de recursos utilizados pelo sistema atendem aos requisitos</li>
-        <li>Grau em que os limites máximos de um parâmetro do sistema atendem aos requisitos</li>
+        <li>Velocidade da conexão</li>
+        <li>Capacidade do dispositivo</li>
       </ul>
     </td>
   </tr>
@@ -173,19 +139,22 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
       <strong>Hipótese de Baseline</strong>
       <ul style="margin-top: 5px;">
         <li>Tempo de resposta para APIs críticas abaixo de 200ms</li>
-        <li>Cobertura de testes unitários acima de 80% para novas funcionalidades</li>
+        <li>Uso de CPU ≤ 70%</li>
+        <li>Resposta em 1Mbps ≤ 3s</li>
+        <li>Carregamento inicial ≤ 5s</li>
       </ul>
     </td>
     <td style="padding: 10px; vertical-align: top; border: 1px solid #ccc;">
       <strong>Impacto dos Fatores de Variação</strong>
       <ul style="margin-top: 5px;">
         <li><em>Otimização de consultas ao banco de dados e uso de cache:</em> podem reduzir significativamente a latência</li>
-        <li><em>Adoção de práticas de TDD:</em> aumenta a cobertura e a qualidade</li>
+        <li><em>Conexões lentas:</em> aumentam tempo de resposta em 150%</li>
+        <li><em>Dispositivos limitados:</em> aumentam uso de CPU em 40%</li>
+        <li><em>Assets otimizados:</em> reduzem tempo de carregamento em 60%</li>
       </ul>
     </td>
   </tr>
 </table>
-
 
 ### Especificação da Avaliação
 #### Métricas e Critérios
