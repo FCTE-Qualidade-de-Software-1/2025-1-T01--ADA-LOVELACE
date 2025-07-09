@@ -221,3 +221,4 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 | ------ | ---------- | ------------------------------------------ | -------------------- | ------- |
 | `1.0`    | 27/05/2025 | [Diego Carlito](https://github.com/DiegoCarlito) | Criação do documento | [Gabriel Moura](https://github.com/thegm445) |
 | `1.1`    | 28/05/2025 | [Diego Carlito](https://github.com/DiegoCarlito) | Melhora o Abstraction Sheet | [Gabriel Moura](https://github.com/thegm445) |
+| `1.2`    | 08/07/2025 | [Víctor Moreira](https://github.com/aqela-batata-alt) | Especificação da Avaliação | [João Pedro Nóbrega](https://github.com/bot-do-jao)|
