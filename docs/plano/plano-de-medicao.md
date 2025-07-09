@@ -111,3 +111,21 @@
 
 ---
 
+## Tabela de Contribuição
+
+| Matrícula | Nome completo                       | Contribuição (%) |
+| --------- | ----------------------------------- | ---------------- |
+| 190102977 | Artur Ricardo dos Santos Lopes      | 16,7%            |
+| 221007690 | Diego Carlito Rodrigues de Souza    | 16,7%            |
+| 221008060 | Gabriel Moura dos Santos            | 16,7%            |
+| 211029361 | João Pedro Nóbrega Fernandes        | 16,7%            |
+| 221008300 | Marcos Antonio Teles de Castilhos   | 16,7%            |
+| 221008481 | Víctor Moreira Almeida              | 16,7%            |
+
+---
+
+## Histórico de Versão
+
+| Versão | Data       | Autor                                      | Descrição            | Revisor |
+| ------ | ---------- | ------------------------------------------ | -------------------- | ------- |
+| `1.0`    | 08/07/2025 | [Gabriel Moura](https://github.com/thegm445) | Criação do documento |  |
