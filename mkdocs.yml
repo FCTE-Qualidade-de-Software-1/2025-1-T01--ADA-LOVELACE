@@ -6,6 +6,7 @@ repo_name: 2025-1-T01--ADA-LOVELACE
 nav:
   - Fase 1: index.md
   - Fase 2: gqm/gqm-fase-definicao.md
+  - Fase 3: plano/plano-de-medicao.md
 
 theme:
   name: material
