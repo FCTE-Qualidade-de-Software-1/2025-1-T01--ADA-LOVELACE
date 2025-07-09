@@ -128,4 +128,4 @@
 
 | Versão | Data       | Autor                                      | Descrição            | Revisor |
 | ------ | ---------- | ------------------------------------------ | -------------------- | ------- |
-| `1.0`    | 08/07/2025 | [Gabriel Moura](https://github.com/thegm445) | Criação do documento |  |
+| `1.0`    | 08/07/2025 | [Gabriel Moura](https://github.com/thegm445) | Criação do documento | [Diego Carlito](https://github.com/DiegoCarlito) |
