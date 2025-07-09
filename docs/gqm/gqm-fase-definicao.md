@@ -29,6 +29,24 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 
 ### Abstraction Sheet
 
+<table style="width:100%; border-collapse: collapse;">
+    <thead style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
+        <tr>
+            <th>Objeto</th>
+            <th>Propósito</th>
+            <th>Foco da Qualidade</th>
+            <th>Ponto de Vista</th>
+        </tr>
+    </thead>
+    <tbody style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
+        <tr>
+            <td>Produto Entregue</td>
+            <td>Compreensão</td>
+            <td>Usabilidade</td>
+            <td>Usuário Final</td>
+        </tr>
+    </tbody>
+</table>
 
 <table style="width:100%; border-collapse: collapse;">
   <tr>
@@ -112,6 +130,24 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 
 ### Abstraction Sheet
 
+<table style="width:100%; border-collapse: collapse;">
+    <thead style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
+        <tr>
+            <th>Objeto</th>
+            <th>Propósito</th>
+            <th>Foco da Qualidade</th>
+            <th>Ponto de Vista</th>
+        </tr>
+    </thead>
+    <tbody style="width: 50%; padding: 10px; vertical-align: top; border: 1px solid #ccc;">
+        <tr>
+            <td>Produto Entregue</td>
+            <td>Avaliação</td>
+            <td>Eficiência</td>
+            <td>Equipe de Desenvolvimento</td>
+        </tr>
+    </tbody>
+</table>
 
 <table style="width:100%; border-collapse: collapse;">
   <tr>
