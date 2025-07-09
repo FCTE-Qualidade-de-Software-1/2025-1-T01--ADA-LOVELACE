@@ -4,8 +4,8 @@ repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-1-T01--ADA-LOVELA
 repo_name: 2025-1-T01--ADA-LOVELACE
 
 nav:
-  - Início: index.md
-  - GQM: gqm/gqm-fase-definicao.md
+  - Fase 1: index.md
+  - Fase 2: gqm/gqm-fase-definicao.md
 
 theme:
   name: material

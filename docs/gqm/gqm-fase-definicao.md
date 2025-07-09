@@ -86,7 +86,17 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
   </tr>
 </table>
 
----
+
+### Especificação da Avaliação
+#### Métricas e Critérios
+
+| Questão | Métrica (Q-RAPID)                     | Unidade        | Nível Aceitável | Critério de Julgamento                     |
+|---------|----------------------------------------|----------------|-----------------|--------------------------------------------|
+| Q1      | Taxa de conclusão de tarefas           | %              | ≥ 80%           | < 70% = Crítico; 70-79% = Alerta           |
+| Q2      | Pontuação SUS (Usabilidade)            | Escala 0-100   | ≥ 75            | < 68 = Insatisfatório                      |
+| Q3      | Tempo médio por tarefa                 | Segundos       | ≤ 120s          | > 150s = Necessita otimização              |
+
+#### Gráfico Hierárquico
 
 ![Diagrama de Objetivo 1: Usabilidade](../images/diagrama-de-objetivo1-usabilidade.png)
 
@@ -176,7 +186,18 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
   </tr>
 </table>
 
----
+
+### Especificação da Avaliação
+#### Métricas e Critérios
+
+| Questão | Métrica (Q-RAPID)              | Unidade        | Nível Aceitável     | Critério de Julgamento               |
+|---------|---------------------------------|----------------|---------------------|--------------------------------------|
+| Q4      | Latência de resposta            | ms             | ≤ 1000              | > 1500ms = Falha                     |
+| Q5      | Uso médio de CPU                | %              | ≤ 70%               | > 85% = Risco de instabilidade       |
+| Q6      | Tempo resposta (1Mbps)          | ms             | ≤ 3000              | > 4000ms = Inaceitável               |
+| Q7      | Tempo carregamento inicial      | segundos       | ≤ 5 (mobile)        | > 8s = Necessita otimização          |
+
+#### Gráfico Hierárquico
 
 ![Diagrama de Objetivo 2 - Eficiência](../images/diagrama-de-objetivo2-eficiencia.png)
 <p><strong>Figura 2 - Diagrama de Objetivo de Medição 2: Eficiência</strong></p>
@@ -200,3 +221,4 @@ Solução web e mobile com o objetivo de facilitar a relação entre os pequenos
 | ------ | ---------- | ------------------------------------------ | -------------------- | ------- |
 | `1.0`    | 27/05/2025 | [Diego Carlito](https://github.com/DiegoCarlito) | Criação do documento | [Gabriel Moura](https://github.com/thegm445) |
 | `1.1`    | 28/05/2025 | [Diego Carlito](https://github.com/DiegoCarlito) | Melhora o Abstraction Sheet | [Gabriel Moura](https://github.com/thegm445) |
+| `1.2`    | 08/07/2025 | [Víctor Moreira](https://github.com/aqela-batata-alt) | Especificação da Avaliação | [João Pedro Nóbrega](https://github.com/bot-do-jao)|
