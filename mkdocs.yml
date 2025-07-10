@@ -7,6 +7,7 @@ nav:
   - Fase 1: index.md
   - Fase 2: gqm/gqm-fase-definicao.md
   - Fase 3: plano/plano-de-medicao.md
+  - Fase 4: avaliacao/avaliacao-projeto.md
 
 theme:
   name: material
